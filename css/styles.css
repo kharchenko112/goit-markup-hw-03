@@ -42,7 +42,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-
 }
 .header {
 }
@@ -128,6 +127,7 @@ body {
   color: var(--second-color-text);
 }
 .hero-button {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   display: inline-block;
   text-align: center;
@@ -136,7 +136,8 @@ body {
   padding-left: 32px;
   padding-right: 32px;
 
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid var(--second-background-color);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -244,7 +245,7 @@ body {
 .team-item + .team-item {
   margin-left: 24px;
 }
-/* ---------------------PORTFOLIO------------------------ */
+/* ---------------------BTN-PORTFOLIO------------------------ */
 
 .button-list {
 }
@@ -259,10 +260,16 @@ body {
   letter-spacing: 0.04em;
   color: var(--second-color-text);
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 1px solid var(--second-background-color);
 }
 .button-name {
   background: var(--main-background-color);
   color: var(--second-background-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 .button-name:hover,
 .button-name:focus {
@@ -277,7 +284,6 @@ body {
 /* ---------------------------Portfolio----------------------- */
 .portfolio {
   background: var(--second-color-text);
-
 }
 .portfolio-section {
   padding-top: 96px;
@@ -306,8 +312,9 @@ body {
   padding-right: 24px;
   padding-top: 12px;
   padding-bottom: 12px;
+  border-radius: 4px;
 }
-.portfolio-section{
+.portfolio-section {
   display: flex;
   justify-content: center;
   padding-bottom: 120px;
@@ -333,9 +340,6 @@ body {
 .portfolio-item:nth-child(n + 7) {
   margin-bottom: 0;
 }
- 
-
-
 
 .portfolio-text {
   font-weight: 500;
@@ -354,7 +358,7 @@ body {
 }
 .portfolio-container {
   padding: 0px 16px;
-  border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 /* -------------------------FOOTER---------------- */
